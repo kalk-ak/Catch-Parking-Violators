@@ -1,0 +1,4 @@
+pyrightconfig.json
+
+# Ignore the module so that I don't leak sensitive information
+python_script/

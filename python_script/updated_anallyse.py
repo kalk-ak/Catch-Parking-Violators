@@ -1,5 +1,6 @@
 from typing import Dict, List, Optional, Set  # Used for static typing to reduce errors
 
+import os
 import pandas as pd
 from abs_time import (
     abs_time,
@@ -44,7 +45,8 @@ class AnsiColors:
 # ==================================================================================
 
 # Select only the necessary columns from the transaction data to improve performance.
-path_of_read: str = "~/codes/projects/solomon_project/python_script/data/"
+path = os.getcwd()
+path_of_read: str = path + "/data/"
 transaction_data: pd.DataFrame = pd.read_csv(
     (path_of_read + "transaction_data.csv"),
     usecols=[
@@ -525,7 +527,7 @@ print("\n")
 
 
 # Define the output directory for the final Excel reports.
-path: str = "~/codes/projects/solomon_project/python_script/test_output/"
+path_of_write: str = path + "/output/"
 
 # For a cleaner final report, mask duplicate emails in the transaction list,
 # showing an email only on its first appearance for a given user.
