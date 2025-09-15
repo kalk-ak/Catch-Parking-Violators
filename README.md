@@ -1,4 +1,4 @@
-### Parking Violation Detector 🚗🚙
+# Parking Violation Detector 🚗🚙
 
 This project is a Python script I designed for Kellog Square Parking Ramp in Minneapolis to catch parking violations in cases where users register multiple vehicles under the same account and parked more than 1 car at the same time.
 
