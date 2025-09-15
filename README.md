@@ -1,6 +1,6 @@
 ### Parking Violation Detector 🚗🚙
 
-This project is a Python script designed to catch parking violations in cases where users register multiple vehicles under the same account.
+This project is a Python script I designed for Kellog Square Parking Ramp in Minneapolis to catch parking violations in cases where users register multiple vehicles under the same account and parked more than 1 car at the same time.
 
 🛑 The Problem
 
@@ -22,4 +22,9 @@ Reviewing historical parking data to detect abuse.
 
 Improving existing parking management systems.
 
-Building a foundation for real-time violation detection.##
+Building a foundation for real-time violation detection.
+
+The Original Scirpt I made was slow and inefficent with multiple nested for-loops. When editing and rewriting the script I made sure that it was faster and as efficient as possible. If you want me to build a similar software for your company please feel free to shoot me an email at  kalebaklilu3@gmail.com. 
+
+NOTE: Documentation of the code was done through Gemini PRO and it is proof read. 
+##
