@@ -2,8 +2,8 @@ import os
 
 import pandas as pd
 
-path_of_read: str = "~/codes/projects/solomon_project/python_script/data/"
-path_of_write: str = "~/codes/projects/solomon_project/python_script/test_output/"
+path_of_read: str = os.getcwd() + "/data/"
+path_of_write: str = os.getcwd() + "/test_output/"
 
 
 class User:
@@ -533,3 +533,4 @@ for user in user_list:
 output["Email"] = output["Email"].mask(output["Email"].duplicated(), None)
 
 output.to_excel(path_of_write + "Before: Final report.xlsx")
+
